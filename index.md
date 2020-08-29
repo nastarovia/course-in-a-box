@@ -3,23 +3,25 @@ layout: index
 published: true
 ---
 
-## Edita y publica un libro con un workflow sostenible y automatizado (y usando herramientas extremadamente *cools*
+## Edita y publica un libro con un workflow sostenible y automatizado
 
 la idea es editar un libro. Pero también evitar todos los problemas que nos pueden causar el uso de software propietario y la falta de un sistema coherente de control de versiones. Y todavía más interesante, utilizando una plataforma que nos permite colaborar sin conflictos con nuestros colegas. 
 
-Course in a Box is an open source, online course creation tool. It is designed to minimize the amount of time you need to spend fumbling around with technology, allowing you to focus on bringing together the resources, activities, and lessons that you want to share with the world.
+El propósito de este tutorial será mostrar desde un punto de vista práctico como combinar herramientas para crear un libro multiformato, de una mera sostenible y automatizada, y que, de paso, resuelve punto por punto nuestro problema..
 
-Course materials are written in [Markdown](https://www.markdownguide.org/) and hosted on [Github](https://www.github.com), a popular development platform that allows for collaborative drafting, version control, and easy dissemination of your course.
+Este es únicamente un posible *workflow* y desde luego que existen muchas otras herramientas y combinaciones. El punto que espero demostrar es únicamente la cantidad de herramientas que existen a nuestra disposición, que pueden transformar el proceso de producción de un libro hasta el punto de permitirnos automatizar todas las tareas, ganando en eficiencia y al mismo tiempo en control sobre nuestros proyectos.
 
-Using Course in a Box and hosting a course on Github are **completely free**, and we’ve outlined the process for putting together a course [on our blog](https://info.p2pu.org/2019/05/16/creating-an-open-course-with-p2pu/). If you’d like to hire us to help you set things up and/or co-design the course with you, [we can do that](https://www.p2pu.org/en/work-with-us/). 
+Para mostrar esto, voy a replantear mi proyecto (la edición de *Mío cid campeador* de Vicente Huidobro) y rehacerlo desde el principio. Para ello:
 
-
-Here are some recent courses that have been built with Course in a Box:
-
-- [Learning to (re)use open educational resources](http://www.exploerercourse.org/) by Creative Commons & Open University
-- [Create and sustain effective makerspaces in your community](http://p2pu.github.io/makingandlearning/) by Pittsburgh Children’s Museum
-- [Learning about learning circles](https://p2pu.github.io/facilitate-course/) by P2PU
-
+- Crearemos, a partir de los archivos que tenemos, un set de archivos fuente en markDown (texto plano con la extensión ``.md``)
+- Luego crearemos un repositorio para albergar los archivos necesarios
+- Crearemos un archivo formateado en ``yaml`` para almacenar la metadata del libro
+- Pondremos este repositorio (el directorio donde vive nuestro proyecto) bajo control de versiones con ``git``
+- Sincronizaremos este repositorio local con un repositorio remoto en GitHub
+- Utilizando pandoc, crearemos nuestro Epub, y crearemos un archivo ICML para importarlo en inDesign
+- Crearemos desde InDesign el PDF final de imprenta
+- Veremos como hacer correcciones, manteniendo un único set de archivos fuente y guardando un registro histórico de correcciones.
+- y por último, crearemos una página web con los archivos de nuestro libro.
 
 ## Reach new audiences
 
