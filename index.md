@@ -3,7 +3,9 @@ layout: index
 published: true
 ---
 
-## Create your own online course (and keep it)
+## Edita y publica un libro con un workflow sostenible y automatizado (y usando herramientas extremadamente *cools*
+
+la idea es editar un libro. Pero también evitar todos los problemas que nos pueden causar el uso de software propietario y la falta de un sistema coherente de control de versiones. Y todavía más interesante, utilizando una plataforma que nos permite colaborar sin conflictos con nuestros colegas. 
 
 Course in a Box is an open source, online course creation tool. It is designed to minimize the amount of time you need to spend fumbling around with technology, allowing you to focus on bringing together the resources, activities, and lessons that you want to share with the world.
 
